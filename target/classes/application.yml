@@ -1,0 +1,8 @@
+spring:
+  thymeleaf:
+    mode: html
+  profiles:
+    active: dev
+
+server:
+  port: 2955

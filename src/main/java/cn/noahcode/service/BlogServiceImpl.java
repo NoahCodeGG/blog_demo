@@ -4,11 +4,14 @@ import cn.noahcode.NotFoundException;
 import cn.noahcode.dao.BlogRepository;
 import cn.noahcode.po.Blog;
 import cn.noahcode.po.Type;
+import cn.noahcode.util.MyBeanUtils;
 import cn.noahcode.vo.BlogQuery;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.jpa.domain.Specification;
 import org.springframework.stereotype.Service;
 
@@ -58,10 +61,29 @@ public class BlogServiceImpl implements BlogService {
     }
 
     @Override
+    public Page<Blog> listBlog(Pageable pageable) {
+        return blogRepository.findAll(pageable);
+    }
+
+    @Override
+    public Page<Blog> listBlog(String query, Pageable pageable) {
+        return blogRepository.findByQuery(query, pageable);
+    }
+
+    @Override
+    public List<Blog> listRecommendBlotTop(Integer size) {
+        Sort sort = Sort.by(Sort.Direction.DESC, "updateTime");
+        Pageable pageable = PageRequest.of(0, size, sort);
+        return blogRepository.findTop(pageable);
+    }
+
+    @Override
     public Blog saveBlog(Blog blog) {
-        blog.setCreateTime(new Date());
+        if (blog.getId() == null) {
+            blog.setCreateTime(new Date());
+            blog.setViews(0);
+        }
         blog.setUpdateTime(new Date());
-        blog.setViews(0);
         return blogRepository.save(blog);
     }
 
@@ -71,7 +93,8 @@ public class BlogServiceImpl implements BlogService {
         if (b == null) {
             throw new NotFoundException("该博客不存在");
         }
-        BeanUtils.copyProperties(b, blog);
+        BeanUtils.copyProperties(blog, b, MyBeanUtils.getNullPropertyNames(blog));
+        b.setUpdateTime(new Date());
         return blogRepository.save(b);
     }
 

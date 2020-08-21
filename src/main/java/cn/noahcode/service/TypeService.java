@@ -27,4 +27,5 @@ public interface TypeService {
 
     List<Type> listType();
 
+    List<Type> listTypeTop(Integer size);
 }
