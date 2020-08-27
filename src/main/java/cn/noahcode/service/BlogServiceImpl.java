@@ -4,6 +4,7 @@ import cn.noahcode.NotFoundException;
 import cn.noahcode.dao.BlogRepository;
 import cn.noahcode.po.Blog;
 import cn.noahcode.po.Type;
+import cn.noahcode.util.MarkdownUtils;
 import cn.noahcode.util.MyBeanUtils;
 import cn.noahcode.vo.BlogQuery;
 import org.springframework.beans.BeanUtils;
@@ -37,6 +38,19 @@ public class BlogServiceImpl implements BlogService {
     @Override
     public Blog getBlog(Long id) {
         return blogRepository.findById(id).get();
+    }
+
+    @Override
+    public Blog getAndConvert(Long id) {
+        Blog b = blogRepository.findById(id).get();
+        if (b == null) {
+            throw new NotFoundException("该博客不存在");
+        }
+        Blog blog = new Blog();
+        BeanUtils.copyProperties(b, blog);
+        String content = blog.getContent();
+        blog.setContent(MarkdownUtils.markdownToHtmlExtensions(content));
+        return blog;
     }
 
     @Override

@@ -1,0 +1,224 @@
+2020-08-24 17:13:01.178  INFO 18084 --- [main] cn.noahcode.BlogDemoApplication          : Starting BlogDemoApplication on NoahCode with PID 18084 (G:\JavaWorkSpace\IDEAWorkSpace\Projects\blog_demo\target\classes started by NoahCode in G:\JavaWorkSpace\IDEAWorkSpace\Projects\blog_demo)
+2020-08-24 17:13:01.183 DEBUG 18084 --- [main] cn.noahcode.BlogDemoApplication          : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2020-08-24 17:13:01.184  INFO 18084 --- [main] cn.noahcode.BlogDemoApplication          : The following profiles are active: dev
+2020-08-24 17:13:01.278  INFO 18084 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-24 17:13:01.279  INFO 18084 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-24 17:13:02.878  INFO 18084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-24 17:13:03.024  INFO 18084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123ms. Found 4 JPA repository interfaces.
+2020-08-24 17:13:04.601  INFO 18084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2955 (http)
+2020-08-24 17:13:04.625  INFO 18084 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-24 17:13:04.626  INFO 18084 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-24 17:13:04.629  INFO 18084 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-08-24 17:13:04.630  INFO 18084 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-24 17:13:04.630  INFO 18084 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-24 17:13:04.638  INFO 18084 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-08-24 17:13:04.828  INFO 18084 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-24 17:13:04.828  INFO 18084 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3549 ms
+2020-08-24 17:13:05.466  INFO 18084 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-24 17:13:05.643  INFO 18084 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-24 17:13:05.856  INFO 18084 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-24 17:13:06.030  WARN 18084 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-24 17:13:06.382  INFO 18084 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-24 17:13:06.645  INFO 18084 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-24 17:13:06.734  INFO 18084 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-24 17:13:07.285  INFO 18084 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-24 17:13:07.331  INFO 18084 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-08-24 17:13:07.422  INFO 18084 --- [main] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-24 17:13:07.600  INFO 18084 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2955 (http) with context path ''
+2020-08-24 17:13:07.605  INFO 18084 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-24 17:13:09.645  INFO 18084 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-24 17:13:09.661  INFO 18084 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 17:13:10.734  INFO 18084 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-24 17:13:10.770  INFO 18084 --- [main] cn.noahcode.BlogDemoApplication          : Started BlogDemoApplication in 10.746 seconds (JVM running for 24.674)
+2020-08-24 17:16:54.580  INFO 18084 --- [File Watcher] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-24 17:16:54.585  INFO 18084 --- [File Watcher] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 JPA repository interfaces.
+2020-08-24 17:27:05.066  INFO 18084 --- [rebel-change-detector-thread] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-24 17:27:05.084  INFO 18084 --- [rebel-change-detector-thread] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17ms. Found 0 JPA repository interfaces.
+2020-08-24 17:28:58.461  INFO 18084 --- [rebel-change-detector-thread] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-24 17:28:58.471  INFO 18084 --- [rebel-change-detector-thread] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2020-08-24 17:30:51.801  INFO 18084 --- [rebel-change-detector-thread] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-24 17:30:51.809  INFO 18084 --- [rebel-change-detector-thread] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 JPA repository interfaces.
+2020-08-24 17:34:49.994  INFO 18084 --- [http-nio-2955-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-24 17:34:49.995  INFO 18084 --- [http-nio-2955-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-24 17:34:50.021  INFO 18084 --- [http-nio-2955-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2020-08-24 17:34:50.126  INFO 18084 --- [http-nio-2955-exec-1] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-08-24 17:34:50.516  WARN 18084 --- [http-nio-2955-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-24 17:34:50.686  WARN 18084 --- [http-nio-2955-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-24 17:34:50.716  INFO 18084 --- [http-nio-2955-exec-1] cn.noahcode.aspect.LogAspect             : Result : index
+2020-08-24 17:34:54.032  INFO 18084 --- [http-nio-2955-exec-5] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 17:34:54.039  INFO 18084 --- [http-nio-2955-exec-5] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 17:37:13.213  INFO 18084 --- [http-nio-2955-exec-4] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-24 17:37:13.222  INFO 18084 --- [http-nio-2955-exec-4] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 JPA repository interfaces.
+2020-08-24 17:37:13.268  INFO 18084 --- [http-nio-2955-exec-4] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 17:37:13.348  INFO 18084 --- [http-nio-2955-exec-4] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 17:37:18.374  INFO 18084 --- [http-nio-2955-exec-9] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-08-24 17:37:18.399  INFO 18084 --- [http-nio-2955-exec-9] cn.noahcode.aspect.LogAspect             : Result : index
+2020-08-24 17:37:19.951  INFO 18084 --- [http-nio-2955-exec-8] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 17:37:19.957  INFO 18084 --- [http-nio-2955-exec-8] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 17:37:59.082  INFO 18084 --- [http-nio-2955-exec-3] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-24 17:37:59.093  INFO 18084 --- [http-nio-2955-exec-3] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9ms. Found 0 JPA repository interfaces.
+2020-08-24 17:37:59.103  INFO 18084 --- [http-nio-2955-exec-3] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-08-24 17:37:59.117  INFO 18084 --- [http-nio-2955-exec-3] cn.noahcode.aspect.LogAspect             : Result : index
+2020-08-24 17:38:01.079  INFO 18084 --- [http-nio-2955-exec-8] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 17:38:01.085  INFO 18084 --- [http-nio-2955-exec-8] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 17:38:37.545  INFO 15484 --- [restartedMain] cn.noahcode.BlogDemoApplication          : Starting BlogDemoApplication on NoahCode with PID 15484 (G:\JavaWorkSpace\IDEAWorkSpace\Projects\blog_demo\target\classes started by NoahCode in G:\JavaWorkSpace\IDEAWorkSpace\Projects\blog_demo)
+2020-08-24 17:38:37.547 DEBUG 15484 --- [restartedMain] cn.noahcode.BlogDemoApplication          : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2020-08-24 17:38:37.547  INFO 15484 --- [restartedMain] cn.noahcode.BlogDemoApplication          : The following profiles are active: dev
+2020-08-24 17:38:37.575  INFO 15484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-24 17:38:37.575  INFO 15484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-24 17:38:38.009  INFO 15484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-24 17:38:38.064  INFO 15484 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50ms. Found 4 JPA repository interfaces.
+2020-08-24 17:38:38.588  INFO 15484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2955 (http)
+2020-08-24 17:38:38.594  INFO 15484 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-24 17:38:38.595  INFO 15484 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-24 17:38:38.596  INFO 15484 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-08-24 17:38:38.596  INFO 15484 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-24 17:38:38.596  INFO 15484 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-24 17:38:38.599  INFO 15484 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-08-24 17:38:38.660  INFO 15484 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-24 17:38:38.660  INFO 15484 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1085 ms
+2020-08-24 17:38:38.785  INFO 15484 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-24 17:38:38.825  INFO 15484 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-24 17:38:38.935  INFO 15484 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-24 17:38:38.985  WARN 15484 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-24 17:38:39.021  INFO 15484 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-24 17:38:39.087  INFO 15484 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-24 17:38:39.220  INFO 15484 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-24 17:38:39.483  INFO 15484 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-24 17:38:39.515  INFO 15484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2955 (http) with context path ''
+2020-08-24 17:38:39.516  INFO 15484 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-24 17:38:39.652  INFO 15484 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-24 17:38:39.665  INFO 15484 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-08-24 17:38:40.164  INFO 15484 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-24 17:38:40.169  INFO 15484 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 17:38:40.651  INFO 15484 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-24 17:38:40.658  INFO 15484 --- [restartedMain] cn.noahcode.BlogDemoApplication          : Started BlogDemoApplication in 3.429 seconds (JVM running for 4.221)
+2020-08-24 17:39:23.740  INFO 15484 --- [http-nio-2955-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-24 17:39:23.741  INFO 15484 --- [http-nio-2955-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-24 17:39:23.752  INFO 15484 --- [http-nio-2955-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-08-24 17:39:23.786  INFO 15484 --- [http-nio-2955-exec-1] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-08-24 17:39:23.853  WARN 15484 --- [http-nio-2955-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-24 17:39:23.863  WARN 15484 --- [http-nio-2955-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-24 17:39:23.868  INFO 15484 --- [http-nio-2955-exec-1] cn.noahcode.aspect.LogAspect             : Result : index
+2020-08-24 17:39:26.264  INFO 15484 --- [http-nio-2955-exec-3] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 17:39:26.288  INFO 15484 --- [http-nio-2955-exec-3] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 17:40:14.162  INFO 15484 --- [http-nio-2955-exec-4] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 17:40:14.168  INFO 15484 --- [http-nio-2955-exec-4] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 17:40:40.853  INFO 15484 --- [http-nio-2955-exec-2] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 17:40:40.860  INFO 15484 --- [http-nio-2955-exec-2] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 17:41:09.819  INFO 15484 --- [http-nio-2955-exec-5] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-08-24 17:41:09.834  INFO 15484 --- [http-nio-2955-exec-5] cn.noahcode.aspect.LogAspect             : Result : index
+2020-08-24 17:41:12.056  INFO 15484 --- [http-nio-2955-exec-4] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 17:41:12.062  INFO 15484 --- [http-nio-2955-exec-4] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 17:42:22.089  INFO 15484 --- [http-nio-2955-exec-5] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-08-24 17:42:22.108  INFO 15484 --- [http-nio-2955-exec-5] cn.noahcode.aspect.LogAspect             : Result : index
+2020-08-24 17:44:03.438  INFO 15484 --- [http-nio-2955-exec-5] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-08-24 17:44:03.452  INFO 15484 --- [http-nio-2955-exec-5] cn.noahcode.aspect.LogAspect             : Result : index
+2020-08-24 17:44:05.404  INFO 15484 --- [http-nio-2955-exec-3] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 17:44:05.408  INFO 15484 --- [http-nio-2955-exec-3] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 17:45:12.214  INFO 3324 --- [main] cn.noahcode.BlogDemoApplication          : Starting BlogDemoApplication on NoahCode with PID 3324 (G:\JavaWorkSpace\IDEAWorkSpace\Projects\blog_demo\target\classes started by NoahCode in G:\JavaWorkSpace\IDEAWorkSpace\Projects\blog_demo)
+2020-08-24 17:45:12.215 DEBUG 3324 --- [main] cn.noahcode.BlogDemoApplication          : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2020-08-24 17:45:12.215  INFO 3324 --- [main] cn.noahcode.BlogDemoApplication          : The following profiles are active: dev
+2020-08-24 17:45:12.262  INFO 3324 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-24 17:45:12.262  INFO 3324 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-24 17:45:12.787  INFO 3324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-24 17:45:12.863  INFO 3324 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68ms. Found 4 JPA repository interfaces.
+2020-08-24 17:45:13.607  INFO 3324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2955 (http)
+2020-08-24 17:45:13.616  INFO 3324 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-24 17:45:13.617  INFO 3324 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-24 17:45:13.619  INFO 3324 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-08-24 17:45:13.619  INFO 3324 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-24 17:45:13.619  INFO 3324 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-24 17:45:13.622  INFO 3324 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-08-24 17:45:13.691  INFO 3324 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-24 17:45:13.691  INFO 3324 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1429 ms
+2020-08-24 17:45:13.980  INFO 3324 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-24 17:45:14.048  INFO 3324 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-24 17:45:14.089  INFO 3324 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-24 17:45:14.188  WARN 3324 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-24 17:45:14.214  INFO 3324 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-24 17:45:14.310  INFO 3324 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-24 17:45:14.447  INFO 3324 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-24 17:45:14.465  INFO 3324 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-08-24 17:45:14.470  INFO 3324 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-24 17:45:14.754  INFO 3324 --- [main] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-24 17:45:14.796  INFO 3324 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2955 (http) with context path ''
+2020-08-24 17:45:14.797  INFO 3324 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-24 17:45:15.227  INFO 3324 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-24 17:45:15.238  INFO 3324 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 17:45:15.689  INFO 3324 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-24 17:45:15.697  INFO 3324 --- [main] cn.noahcode.BlogDemoApplication          : Started BlogDemoApplication in 4.038 seconds (JVM running for 7.18)
+2020-08-24 17:45:20.619  INFO 3324 --- [http-nio-2955-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-24 17:45:20.620  INFO 3324 --- [http-nio-2955-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-24 17:45:20.629  INFO 3324 --- [http-nio-2955-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-08-24 17:45:20.661  INFO 3324 --- [http-nio-2955-exec-1] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-08-24 17:45:20.822  WARN 3324 --- [http-nio-2955-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-24 17:45:20.857  WARN 3324 --- [http-nio-2955-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-24 17:45:20.868  INFO 3324 --- [http-nio-2955-exec-1] cn.noahcode.aspect.LogAspect             : Result : index
+2020-08-24 17:45:23.190  INFO 3324 --- [http-nio-2955-exec-5] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 17:45:23.241  INFO 3324 --- [http-nio-2955-exec-5] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 17:46:21.247  INFO 3324 --- [http-nio-2955-exec-4] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-24 17:46:21.254  INFO 3324 --- [http-nio-2955-exec-4] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 JPA repository interfaces.
+2020-08-24 17:46:21.346  INFO 3324 --- [http-nio-2955-exec-4] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 17:46:21.402  INFO 3324 --- [http-nio-2955-exec-4] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 18:02:20.736  INFO 3324 --- [http-nio-2955-exec-1] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-24 18:02:20.744  INFO 3324 --- [http-nio-2955-exec-1] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7ms. Found 0 JPA repository interfaces.
+2020-08-24 18:02:20.780  INFO 3324 --- [http-nio-2955-exec-1] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 18:02:20.793  INFO 3324 --- [http-nio-2955-exec-1] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 18:02:33.756  INFO 3324 --- [http-nio-2955-exec-7] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-08-24 18:02:33.787  INFO 3324 --- [http-nio-2955-exec-7] cn.noahcode.aspect.LogAspect             : Result : index
+2020-08-24 18:06:40.397  INFO 3324 --- [http-nio-2955-exec-3] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 18:06:40.405  INFO 3324 --- [http-nio-2955-exec-3] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 18:19:05.976  INFO 3324 --- [http-nio-2955-exec-9] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 18:19:05.984  INFO 3324 --- [http-nio-2955-exec-9] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 18:21:55.705  INFO 3324 --- [http-nio-2955-exec-3] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-08-24 18:21:55.724  INFO 3324 --- [http-nio-2955-exec-3] cn.noahcode.aspect.LogAspect             : Result : index
+2020-08-24 18:21:57.695  INFO 3324 --- [http-nio-2955-exec-8] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 18:21:57.700  INFO 3324 --- [http-nio-2955-exec-8] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 18:38:52.704  INFO 18780 --- [main] cn.noahcode.BlogDemoApplication          : Starting BlogDemoApplication on NoahCode with PID 18780 (G:\JavaWorkSpace\IDEAWorkSpace\Projects\blog_demo\target\classes started by NoahCode in G:\JavaWorkSpace\IDEAWorkSpace\Projects\blog_demo)
+2020-08-24 18:38:52.706 DEBUG 18780 --- [main] cn.noahcode.BlogDemoApplication          : Running with Spring Boot v2.3.2.RELEASE, Spring v5.2.8.RELEASE
+2020-08-24 18:38:52.706  INFO 18780 --- [main] cn.noahcode.BlogDemoApplication          : The following profiles are active: dev
+2020-08-24 18:38:52.791  INFO 18780 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-24 18:38:52.791  INFO 18780 --- [main] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-24 18:38:53.405  INFO 18780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-24 18:38:53.493  INFO 18780 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80ms. Found 4 JPA repository interfaces.
+2020-08-24 18:38:54.314  INFO 18780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 2955 (http)
+2020-08-24 18:38:54.324  INFO 18780 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-24 18:38:54.324  INFO 18780 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-24 18:38:54.326  INFO 18780 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-08-24 18:38:54.328  INFO 18780 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-08-24 18:38:54.328  INFO 18780 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-08-24 18:38:54.330  INFO 18780 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-08-24 18:38:54.551  INFO 18780 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-08-24 18:38:54.551  INFO 18780 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1760 ms
+2020-08-24 18:38:54.787  INFO 18780 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-24 18:38:54.872  INFO 18780 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-24 18:38:54.923  INFO 18780 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-24 18:38:55.031  WARN 18780 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-24 18:38:55.080  INFO 18780 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-24 18:38:55.219  INFO 18780 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-24 18:38:55.378  INFO 18780 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-08-24 18:38:55.379  INFO 18780 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-24 18:38:55.402  INFO 18780 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-08-24 18:38:55.696  INFO 18780 --- [main] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-24 18:38:55.745  INFO 18780 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 2955 (http) with context path ''
+2020-08-24 18:38:55.747  INFO 18780 --- [main] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-24 18:38:56.285  INFO 18780 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-24 18:38:56.299  INFO 18780 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-24 18:38:56.842  INFO 18780 --- [main] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-24 18:38:56.850  INFO 18780 --- [main] cn.noahcode.BlogDemoApplication          : Started BlogDemoApplication in 5.079 seconds (JVM running for 8.955)
+2020-08-24 18:38:58.535  INFO 18780 --- [http-nio-2955-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-24 18:38:58.535  INFO 18780 --- [http-nio-2955-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-24 18:38:58.548  INFO 18780 --- [http-nio-2955-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-08-24 18:38:58.591  INFO 18780 --- [http-nio-2955-exec-1] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-08-24 18:38:58.706  WARN 18780 --- [http-nio-2955-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-24 18:38:58.728  WARN 18780 --- [http-nio-2955-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2020-08-24 18:38:58.735  INFO 18780 --- [http-nio-2955-exec-1] cn.noahcode.aspect.LogAspect             : Result : index
+2020-08-24 18:39:02.116  INFO 18780 --- [http-nio-2955-exec-4] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 18:39:02.175  INFO 18780 --- [http-nio-2955-exec-4] cn.noahcode.aspect.LogAspect             : Result : blog
+2020-08-24 18:40:34.707  INFO 18780 --- [http-nio-2955-exec-8] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-24 18:40:34.716  INFO 18780 --- [http-nio-2955-exec-8] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 JPA repository interfaces.
+2020-08-24 18:40:34.799  INFO 18780 --- [http-nio-2955-exec-8] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.index', args=[Page request [number: 0, size 10, sort: updateTime: DESC], {}]}
+2020-08-24 18:40:34.826  INFO 18780 --- [http-nio-2955-exec-8] cn.noahcode.aspect.LogAspect             : Result : index
+2020-08-24 18:40:36.584  INFO 18780 --- [http-nio-2955-exec-5] cn.noahcode.aspect.LogAspect             : Request : RequestLog{url='http://127.0.0.1:2955/blog/4', ip='127.0.0.1', classMethod='cn.noahcode.web.IndexController.blog', args=[4, {}]}
+2020-08-24 18:40:36.595  INFO 18780 --- [http-nio-2955-exec-5] cn.noahcode.aspect.LogAspect             : Result : blog
